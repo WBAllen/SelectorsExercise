@@ -1,47 +1,96 @@
+/* Item 1 */
 body {
     background-color: #CED4D8;
 }
 
+/* Item 2 */
 h1 {
     color: #AC6AC7;
 }
 
+/* Item 3 */
 h2 {
     color: rgb(255, 165, 0);
 }
 
+/* Item 4 */
 li {
     color: blue
 }
 
+/* Item 5 */
 p {
     background-color: gold;
 }
 
+/* Item 6 and 10 "(type=email)" */
 input[type=text] {
     border: 5px dotted pink;
 }
 
-input[ type=email] {
+input[type=email] {
     border: 5px dotted pink;
     background-color: #808080;
 }
 
+/* Item 7 */
 .first {
     background-color: #fff;
 }
 
+/* Item 8 */
 #important {
     border: 3px dashed #0000ff;
 }
 
+/* Item 9 */
 div p {
     font-size: 30px;
 }
 
-/* not sure about this one */
+/* Item 11 */
+/* not sure about this one
 div:nth-of-type(3) {
+    background-color: hotpink;
+} */
+
+div:nth-of-type(3) p {
     background-color: hotpink;
 }
 
-/* 12, 13 and the bonus gave me trouble */
+/* Item 12 */
+div:nth-of-type(3) > p:nth-of-type(2) {
+    border: 7px solid rgb(255, 255, 255);
+}
+
+/* Item 13 */
+div:nth-of-type(3) > p:nth-of-type(1) > em {
+    color: seashell;
+    font-size: 25px;
+}
+
+/* Bonus 1 */
+input:checked {
+    margin-left: 40px;
+}
+
+/* Bonus 2 */
+label {
+    text-transform: lowercase;
+}
+
+/* Bonus 3  */
+#important::first-letter {
+    font-size: 90px;
+    color: limegreen;
+}
+
+/* Bonus 4 */
+h1:hover {
+    color: navy;
+}
+
+/* Bonus 5 */
+a:visited {
+    color: silver;
+}
