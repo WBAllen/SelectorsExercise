@@ -1,0 +1,47 @@
+body {
+    background-color: #CED4D8;
+}
+
+h1 {
+    color: #AC6AC7;
+}
+
+h2 {
+    color: rgb(255, 165, 0);
+}
+
+li {
+    color: blue
+}
+
+p {
+    background-color: gold;
+}
+
+input[type=text] {
+    border: 5px dotted pink;
+}
+
+input[ type=email] {
+    border: 5px dotted pink;
+    background-color: #808080;
+}
+
+.first {
+    background-color: #fff;
+}
+
+#important {
+    border: 3px dashed #0000ff;
+}
+
+div p {
+    font-size: 30px;
+}
+
+/* not sure about this one */
+div:nth-of-type(3) {
+    background-color: hotpink;
+}
+
+/* 12, 13 and the bonus gave me trouble */
